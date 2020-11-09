@@ -14,7 +14,29 @@ public class questao4Funcionarie
 	private int mesDeAdmissao;
 	private int anoDeAdmissao;
 	private String endereco;
-	private float salario;
+	private double salario;
 	
-	//PARA TERMINAR
+	void nome()
+	{
+		System.out.println("O nome du fincionárie é " + nome1+ " " + nome2+ " "+nome3);
+	}
+	void cadastro ()
+	{
+		System.out.println("Com o cargo de " + cargo);
+		System.out.println("Admitido no ano " + anoDeAdmissao + " no mês " +mesDeAdmissao);
+		System.out.println("Atualmente ganhando salário de R$" + salario);
+		System.out.println("Atualmente reside no enredereço " + endereco);
+	}
+	
+	public questao4Funcionarie (String nomee1, String nomee2, String nomee3, String cargoo, int mesDeAdmissaoo, int anoDeAdmissaoo,	 String enderecoo, double salarioo) 
+	{
+		this.nome1 = nomee1;
+		this.nome2 = nomee2;
+		this.nome3 = nomee3;
+		this.cargo = cargoo;
+		this.mesDeAdmissao = mesDeAdmissaoo;
+		this.anoDeAdmissao = anoDeAdmissaoo;
+		this.endereco = enderecoo;
+		this.salario = salarioo;
+	}
 }
